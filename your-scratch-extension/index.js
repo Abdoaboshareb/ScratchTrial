@@ -49,12 +49,12 @@ class MeArmController {
                 {
                     opcode: 'Jumpto',
                     blockType: BlockType.COMMAND,
-                    text: 'Jump to X:[X] Y:[Y] Z:[Z] at speed:[F]',
+                    text: 'Jump to X:[X] Y:[Y] Z:[Z] ',
                     arguments: {
                         X: { type: ArgumentType.NUMBER, defaultValue: 100 },
                         Y: { type: ArgumentType.NUMBER, defaultValue: 0 },
-                        Z: { type: ArgumentType.NUMBER, defaultValue: 100 },
-                        F: { type: ArgumentType.NUMBER, defaultValue: 900 }
+                        Z: { type: ArgumentType.NUMBER, defaultValue: 100 }
+                        
                     }
                 },
                 {
@@ -141,7 +141,7 @@ class MeArmController {
         return new Promise(resolve => setTimeout(resolve, 500));
     }
      Jumpto({ X, Y, Z, F }) {
-        const gcode = `G0 X${X} Y${Y} Z${Z} F${F}`;
+        const gcode = `G0 X${X} Y${Y} Z${Z}`;
         this.sendCommand(gcode);
         return new Promise(resolve => setTimeout(resolve, 500));
     }
