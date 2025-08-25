@@ -14,5 +14,5 @@ Go to [INSTRUCTIONS.md](./INSTRUCTIONS.md) to find a written step-by-step guide,
 
 I've wrapped all the complicated bits in scripts that set everything up, and prepared an online Scratch extension development environment – so everything can be done in a web browser without having to install or configure anything on your own computer.
 
-If you make something with this, please [let me know](https://github.com/dalelane/scratch-extension-development/issues) - I'd love to hear about it.
+If you make something with this, please [let me know](https://github.com/dalelane/scratch-extension-development/issues) - I'd love to hear about it...
 
