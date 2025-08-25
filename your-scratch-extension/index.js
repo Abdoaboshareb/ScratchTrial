@@ -140,7 +140,7 @@ class MeArmController {
         this.sendCommand(gcode);
         return new Promise(resolve => setTimeout(resolve, 500));
     }
-     Jumpto({ X, Y, Z, F }) {
+    Jumpto({ X, Y, Z }) {
         const gcode = `G0 X${X} Y${Y} Z${Z}`;
         this.sendCommand(gcode);
         return new Promise(resolve => setTimeout(resolve, 500));
