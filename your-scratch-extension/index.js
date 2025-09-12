@@ -1,3 +1,4 @@
+
 // Filename: your-scratch-extension/index.js
 
 const BlockType = require('../../extension-support/block-type');
