@@ -17,11 +17,11 @@ index ba18b91..e316f38 100644
  
  export default [
 +    {
-+        name: 'Your Extension',
++        name: 'MeArm control blocks',
 +        extensionId: 'yourScratchExtension',
 +        iconURL: yourExtensionIconURL,
 +        insetIconURL: yourExtensionInsetIconURL,
-+        description: 'Your custom Scratch extension',
++        description: 'A special extension to control MeArm robot from Zewail city Robotics Team',
 +        featured: true,
 +        disabled: false
 +    },
